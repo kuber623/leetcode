@@ -93,7 +93,6 @@ func largestIsland(grid [][]int) int {
 				continue
 			}
 
-			// 如果为海面
 			adjacentSet := make(map[int]int, 4)
 			// 向上查询
 			if i != 0 && grid[i-1][j] == 1 {
